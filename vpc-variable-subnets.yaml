@@ -33,7 +33,7 @@ inputs:
     display_label: VPC CIDR
     default: 10.0.0.0/16
 
-  number_of_subnets:
+  subnet_count:
     type: integer
     description: Number of subnets to create
     display_label: Number of Subnets
