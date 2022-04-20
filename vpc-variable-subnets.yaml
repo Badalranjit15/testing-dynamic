@@ -121,7 +121,7 @@ node_templates:
         #source_path: rt-association/module
         variables:
           region: { get_input: region }
-          transit_gateway_id: { get_input: transit_gateway_id }
+         # transit_gateway_id: { get_input: transit_gateway_id }
           subnet_ids: { get_attribute: [ vpc, outputs, subnet_ids, value ] }
           route_table_id: { get_attribute: [ vpc, outputs, default_route_table_id, value ] }
     relationships:
