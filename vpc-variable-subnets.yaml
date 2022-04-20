@@ -54,16 +54,16 @@ inputs:
       - greater_than: 16
       - less_than: 32
 
-  transit_gateway_id:
-    type: string
-    description: ID of the transit gateway to attach the VPC to
-    display_label: Transit Gateway ID
+  #transit_gateway_id:
+  #  type: string
+  #  description: ID of the transit gateway to attach the VPC to
+  #  display_label: Transit Gateway ID
 
-  destination_cidr:
-    type: string
-    description: Destination CIDR address to route
-    display_label: Destination CIDR
-    default: "0.0.0.0/0"
+  #destination_cidr:
+  #  type: string
+  #  description: Destination CIDR address to route
+  #  display_label: Destination CIDR
+  #  default: "0.0.0.0/0"
 
 node_templates:
 
