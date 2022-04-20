@@ -79,7 +79,7 @@ node_templates:
       resource_config:
         source:
        #   location: https://github.com/Cloudify-PS/exl-poc/archive/refs/heads/main.zip
-          location: vpc-variable-subnets/module.zip
+          location: vpc1/module.zip
       #  source_path: vpc-variable-subnets/module
         variables:
           region: { get_input: region }
